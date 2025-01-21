@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B.C.A FRESHERS PARTY</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+       
+        @keyframes scroll {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        .video-section {
+            width: 100%;
+            height: calc(100vh - 80px);
+            overflow: hidden;
+        }
+
+        .video-section video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .image-section {
+            width: 100%;
+            height: calc(100vh - 80px);
+            overflow: hidden;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            background: #2d9699;
+            color: #fff;
+            padding: 10px 0;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        footer img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 5px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <main>
+        <div class="video-section">
+            <video src="VIDEO.mp4" autoplay loop muted></video>
+        </div>
+
+        <div class="image-section">
+            <img src="first_edition_guest.png" alt="News Image">
+        </div>
+
+        <div class="image-section">
+            <img src="first_edition_program.png" alt="News Image">
+        </div>
+    </main>
+
+    <footer>
+        <img src="logo_nobackground.png" alt="Logo">
+        <p>&copy; 2025 VIVAX WEB. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
